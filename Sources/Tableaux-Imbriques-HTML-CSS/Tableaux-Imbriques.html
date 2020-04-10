@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Tableaux imbriqués</title>
+		<style>
+			table {
+				width: 100%;
+				border: 3px solid black;
+				border-collapse: collapse;
+			}
+			table td {
+				border: 1px dotted black;
+			}
+			table caption {
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption>Imbriquons les tableaux</caption>
+			<tbody>
+				<tr>
+					<td>Du contenu</td>
+					<td>Encore du contenu</td>
+					<td>Un peu plus de contenu</td>
+				</tr>
+				<tr>
+					<td>-------&gt;</td>
+					<td colspan="2">
+						<table>
+							<caption>Le second tableau contenu dans le premier</caption>
+							<thead>
+								<tr>
+									<th colspan="3">Contenu du second tableau</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Du contenu 2</td>
+									<td>Encore du contenu 2</td>
+									<td>Un peu plus de contenu 2</td>
+								</tr>
+								<tr>
+									<td>Du contenu 3</td>
+									<td>Encore du contenu 3</td>
+									<td>Un peu plus de contenu 3</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
