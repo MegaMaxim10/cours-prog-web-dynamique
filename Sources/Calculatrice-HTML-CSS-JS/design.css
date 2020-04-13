@@ -1,0 +1,18 @@
+html{background: black;}
+body{width: 800px; min-height: 500px; background: black; margin: auto;}
+.calco{margin: auto; padding: 10px; background: white; width: 250px; margin-top: 50px; border-radius: 5px;}
+.first_panel{background: rgb(250, 250, 250); border: 1px solid gray; padding: 5px; border-radius: 5px;}
+.mem_screen, .screen{display: block; height: 20px; width: 100%; text-align: right;}
+.screen{font-family: "Cambria", "Georgia"; font-size: 1.1em; margin-top: 5px;}
+.mem_screen{font-weight: bold;}
+.second_panel{width: 180px; float: left; margin: 10px 10px auto auto;}
+.number_panel{margin-top: 3px; padding-top: 3px; border-top: 2px solid rgb(238, 238, 238);}
+.clear{clear: both;}
+.third_panel{float: left; margin: 10px auto auto auto; width: 60px;}
+a{text-decoration: none;}
+.cmd_button{height: 30px;}
+.cmd_button_dh{height: 80px;}
+.cmd_button, .cmd_button_dh{display: block; width: 50px; float: left; margin: 2px 4px 2px 4px; text-align: center; border: 1px solid black; color: white; background: black; border-radius: 15px; font-size: 1.1em; padding-top: 5px; box-shadow: 0px 0px 1px 1px rgba(50, 50, 50, 0.5);}
+.cmd_button:hover, .cmd_button_dh:hover{background: rgb(250, 250, 250); color: black;}
+.calco_label{position: absolute; color: white; background: black; margin-left: -185px; margin-top: 155px; transform: rotate(-90deg); font-size: 1.2em;}
+
