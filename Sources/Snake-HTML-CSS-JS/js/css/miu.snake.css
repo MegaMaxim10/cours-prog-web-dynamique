@@ -1,0 +1,76 @@
+.snake-game-zone {
+    margin: auto;
+}
+#snake-game-information {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-bottom: none;
+    background: rgba(226, 242, 247, 0.9);
+}
+#snake-game-score {
+   margin-left: 3px; 
+   color: rgb(11, 199, 111);
+   font-family: monospace, Helvetica, sans-serif;
+}
+#snake-game-score-label {
+    margin-left: 3px;
+    color: red;
+    font-family: monospace, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#snake-game-inner {
+    margin: auto;
+    border: 2px solid black;
+    background: rgba(226, 242, 247, 0.9);
+}
+#snake-game-controls {
+    margin: auto;
+    width: 165px;
+}
+.snake-game-controller {
+    font-family: monospace, Helvetica, sans-serif;
+    margin: auto;
+}
+.snake-game-cell {
+    float: left;
+}
+.snake-head {
+    background-color: red;
+}
+.snake-body {
+    background-color: black;
+}
+.snake-tchop {
+    background-color: rgb(11, 199, 111);
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px rgb(102, 100, 102, 0.8);
+}
+.snake-obstacle {
+    background-color: rgb(102, 100, 102);
+}
+.snake-head-dir-right {
+    border-radius: 0% 90% 90% 0%;
+}
+.snake-head-dir-bottom {
+    border-radius: 0% 0% 90% 90%;
+}
+.snake-head-dir-left {
+    border-radius: 90% 0% 0% 90%;
+}
+.snake-head-dir-top {
+    border-radius: 90% 90% 0% 0%;
+}
+.snake-body-dir-right {
+    border-radius: 100% 0% 0% 100%;
+}
+.snake-body-dir-bottom {
+    border-radius: 100% 100% 0% 0%;
+}
+.snake-body-dir-left {
+    border-radius: 0% 100% 100% 0%;
+}
+.snake-body-dir-top {
+    border-radius: 0% 0% 100% 100%;
+}
