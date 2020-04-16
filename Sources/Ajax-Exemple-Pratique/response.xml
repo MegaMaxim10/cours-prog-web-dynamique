@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<message>
+		<id>1</id>
+		<exp>Philippe</exp>
+		<contenu>Bla bla bla</contenu>
+	</message>
+	<message>
+		<id>2</id>
+		<exp>Laurent</exp>
+		<contenu>Blo blo blo</contenu>
+	</message>
+</response>
