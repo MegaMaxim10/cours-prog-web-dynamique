@@ -1,0 +1,240 @@
+html{
+	background: url("../images/back.jpg") repeat-x fixed;
+	background-color: rgb(250, 250, 250);
+}
+body{
+	width: 1015px;
+	margin: 0px auto 0px auto;
+	padding: 5px;
+	min-height: 500px;
+}
+#header{
+	width: 1004px;
+	padding: 5px;
+	background: rgb(250, 250, 250);
+	box-shadow: 0px 1px 2px 1px rgba(20, 20, 20, 0.3);
+}
+#banner{
+	height: 120px;
+	width: 994px;
+	padding: 5px;
+	background: white;
+}
+#menubar{
+	height: 40px;
+	width: 994px;
+	padding: 5px;
+	background: rgb(0, 111, 152);
+	border-radius: 5px;
+}
+#content{
+	clear: both;
+	width: 1004px;
+	background: rgb(250, 250, 250);
+	box-shadow: 0px 1px 2px 1px rgba(20, 20, 20, 0.3);
+	margin-top: 10px;
+	padding: 5px;
+}
+#left_content{
+	width: 250px;
+	padding: 5px;
+	float: left;
+	margin-right: 5px;
+}
+#main_content{
+	width: 717px;
+	padding: 8px;
+	margin: 5px 0px 5px 2px;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(0, 111, 152);
+	box-shadow: 0px 1px 2px 1px rgba(20, 20, 20, 0.3);
+	float: left;
+}
+.clear{
+	clear: both;
+}
+#footer{
+	background: rgb(0, 111, 152);
+	color: white;
+	box-shadow: 0px 1px 2px 1px rgba(20, 20, 20, 0.3);
+	width: 1004px;
+	padding: 5px;
+	margin-top: 10px;
+}
+.left_child, .other{
+	width: auto;
+	padding: 5px;
+	background: rgb(255, 255, 255);
+	margin: 0px auto 15px auto;
+	border-radius: 0px 0px 5px 5px;
+	border: 1px solid rgb(0, 111, 152);
+	box-shadow: 0px 1px 2px 1px rgba(20, 20, 20, 0.3);
+}
+.left_child > h4{
+	width: 218px;
+	background: url("../images/comment.png") no-repeat 2px 50%;
+	background-color: rgb(0, 111, 152);
+	color: white;
+	text-transform: uppercase;
+	padding: 5px 5px 5px 25px;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.other h4{
+	width: 198px;
+	background: url("../images/comment.png") no-repeat 2px 50%;
+	background-color: rgb(0, 111, 152);
+	color: white;
+	text-transform: uppercase;
+	padding: 5px 5px 5px 25px;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.other{
+	width: 218px;
+	float: left;
+	margin-right: 5px;
+}
+.menu{
+	list-style-type: none;
+	position: absolute;
+	margin: 0px 0px 0px 0px;
+	margin-left: -40px;
+}
+.menu > li{
+	float: left;
+	padding: 0px 3px 0px 3px;
+}
+.menu > li > a{
+	display: block;
+	width: auto;
+	height: 30px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: white;
+	color: rgb(255, 98, 130);
+	font-weight: bold;
+}
+.menu > li.active > a{
+	background: rgb(255, 98, 130);
+	color: white;
+}
+.menu > li > a:hover{
+	border-radius: 0px;
+	background: rgb(255, 98, 130);
+	color: white;
+}
+.menu > li:hover > .submenu{
+	visibility: visible;
+}
+.submenu{
+	background: rgb(0, 111, 152);
+	list-style-type: none;
+	position: absolute;
+	margin: 1px 0px 0px 0px;
+	border-top: 4px solid rgb(0, 111, 152);
+	border-bottom: 4px solid rgb(255, 98, 130);
+	min-width: 120px;
+	visibility: hidden;
+	box-shadow: 0px 12px 2px 3px rgba(20, 20, 20, 0.1);
+}
+.submenu > li:nth-child(1){
+	border-top: 5px solid rgb(250, 250, 250);
+}
+.submenu > li{
+	display: block;
+	margin-left: -40px;
+	padding: 3px 10px 3px 10px;
+}
+.submenu > li:hover, .submenu > li.active{
+	background: rgb(255, 98, 130);
+}
+.submenu > li:hover > a, .submenu > li.active > a{
+	color: white;
+}
+.submenu > li > a{
+	font-size: 1.15em;
+	font-weight: bold;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: rgb(255, 98, 130);
+}
+h1{
+	background: url("../images/postheadericon.png") no-repeat 2px 70%;
+	padding-left: 30px;
+	color: rgb(60, 60, 60);
+}
+h1:first-letter, .content p:first-letter{
+	font-family: "Cambria", serif;
+	font-size: 1.3em;
+	color: rgb(255, 98, 130);
+}
+input[type="text"], input[type="email"], label{
+	width: 100%;
+	height: 25px;
+	font-size: 1.10em;
+}
+input[type="submit"]{
+	height: 25px;
+	color: white;
+	background-color: rgb(0, 111, 152);
+	border: 1px solid rgb(0, 111, 152);
+	cursor: pointer;
+}
+#overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 111, 152, 0.4);
+}
+#overContent{
+	width: 60%;
+	height: 570px;
+	margin: 25px 20% 50px 20%;
+	background: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+#overContent a.close{
+	display: block;
+	position: absolute;
+	font-size: 1.2em;
+}
+.table{
+	width: 90%;
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid rgb(0, 111, 152);
+}
+.table td, .table tr{
+	border-collapse: collapse;
+	border: 1px solid rgb(0, 111, 152);
+	height: 28px;
+	font-size: 1.10em;
+	text-align: left;
+}
+.table th{
+	border-collapse: collapse;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	height: 28px;
+	font-size: 1.10em;
+	color: white;
+	background: rgb(0, 111, 152);
+	text-align: center;
+}
+.table tr th:nth-child(1){
+	border-left: 1px solid rgb(0, 111, 152);
+}
+.content p img{
+	float: left;
+	margin: 5px;
+	border: 1px solid rgb(0, 111, 152);
+	box-shadow: 0px 1px 2px 1px rgba(20, 20, 20, 0.3);
+}
