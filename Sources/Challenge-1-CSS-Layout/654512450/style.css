@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding:0;
+	font-style: italic;
+	font-size: 14px;
+}
+body{
+	height: 100%;
+	width: 80%;
+	margin-top: 1%;
+	margin-bottom: 10%;
+	margin-left: 20%;
+	margin-right:20%;
+	overflow: hidden;
+}
+#mypage-container{
+
+	border: 10px solid #ccc6c6;
+	width: 80%;
+	height: 100%;
+}
+header.mypage-full-width{
+	
+	height: 10vh;
+	background-color: blue;
+	text-decoration: : italic;
+	border-bottom: yellow 5px solid;
+
+}
+#mypage-content-wrapper{
+	height: 60%;
+	
+	border-bottom:yellow 5px solid;
+}
+footer{
+	bottom: 0;
+	background-color: blue;
+	height: 8vh;
+}
+#mypage-bottom-large-content,#mypage-top-large-content{
+	background-color: red;
+	height: 10vh;
+}
+#mypage-top-large-content{
+	border-bottom: 5px solid #f5b5c0;
+}
+#mypage-in-column-content-wrapper{
+background-color: #ff00e06e;
+height: 100%;margin-bottom: 0;
+border-bottom:  #ff00e01c 5px solid;
+}
+#mypage-left-in-column-content{
+margin-bottom: 5%;
+background-color: #f705f0;
+display: block;
+width: 25%;
+height: 20vh;
+ position:relative;
+ float: left;
+}
+#mypage-right-in-column-content{
+	margin-top: -40vh;
+background-color: #f705f0;
+display: block;
+width: 25%;
+height: 20vh;
+position: relative;
+float: right;
+}
+#mypage-central-in-column-content{
+	width: 50%;
+	margin-top: 0;
+	margin-left: 25%;
+	margin-right: 25%;
+	position: relative;
+	height: 40vh;
+	background-color:green;
+}

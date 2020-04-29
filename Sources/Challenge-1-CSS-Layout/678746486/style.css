@@ -1,0 +1,79 @@
+.partie_centrale{
+	height: 100%;
+	width: 80%;
+	background-color:grey;
+	margin-left: 12%;
+	border: 1px solid black;
+	padding-top:0.5%;
+	padding-bottom: 0.5%;
+	margin-bottom:-5%;
+}
+header{
+	height: 20%;
+	width: 99%;
+	background-color: blue;
+	margin-left: 0.5%;
+	font-size: 350%;
+}
+section{
+	height: 90%;
+	width: 99%;
+	padding-top: 0.5%;
+	background-color: yellow;
+	margin-left: 0.5%;
+}
+#article1{
+	height: 20%;
+	width: 100%;
+	background-color: red;
+	padding-top: 1%;
+	font-size: 220%;
+}
+#partie_rose_clair{
+	height: 100%;
+	width: 100%;
+	background-color:rgb(255,128,255); 
+	font-size: 500%;
+}
+#article2{
+	height: 50%;
+	width: 100%;
+	background-color: rgb(255,0,255);
+	font-size: 100%;
+}
+aside{
+	height: 90%;
+	width: 35%;
+	background-color: green;
+	margin-left: 25%;
+	margin-bottom:5%; 
+	font-size: 100%;
+}
+#aside_rouge{
+	height: 25%;
+	width: 100%;
+	background-color: red;
+	margin-left:0%;
+	font-size: 400%;
+	margin-top:-4.5%; 
+}
+footer{
+	height: 25%;
+	width: 99%;
+	margin-left: 0.5%;
+	background-color: blue;
+	font-size: 300%;
+}
+@media screen and (max-width: 1024px){
+	.partie_centrale{
+		font-size: 30px;
+	}
+	aside{
+		height: 98%;
+	}
+}
+@media screen and (max-width: 800px){
+	aside{
+		height: 98%; 
+	}
+}

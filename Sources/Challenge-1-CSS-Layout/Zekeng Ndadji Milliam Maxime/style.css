@@ -1,0 +1,70 @@
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-style: italic;
+	margin: 0px;
+}
+
+#mypage-container {
+	width: 80%;
+	margin: 0px auto 0px auto;
+	border: 1px solid lightgray;
+	background-color: lightgray;
+	padding: 10px;
+}
+
+.mypage-full-width {
+	width: 100%;
+}
+
+header, footer {
+	background-color: blue;
+	min-height: 100px;
+}
+
+#mypage-content-wrapper {
+	padding: 10px 0px 10px 0px;
+	background-color: yellow;
+}
+
+.mypage-large-content {
+	padding: 10px;
+	min-height: 100px;
+	background-color: red;
+	width: calc(100% - 20px);
+}
+
+.mypage-float-left {
+	float: left;
+}
+
+.mypage-clear-float {
+	clear: both;
+}
+
+.mypage-nowidth-noheight {
+	width: 0px;
+	height: 0px;
+}
+
+#mypage-in-column-content-wrapper {
+	padding: 10px 0px 10px 0px;
+	background-color: violet;
+}
+
+.mypage-column-content-aside {
+	width: 25%;
+	background-color: magenta;
+	min-height: 200px;
+	border-width: 0px;
+}
+
+#mypage-central-in-column-content {
+	width: 50%;
+	min-height: 300px;
+	background-color: green;
+	border-width: 0px;
+}

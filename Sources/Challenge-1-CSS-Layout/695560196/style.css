@@ -1,0 +1,68 @@
+{
+	border-left: 8px solid rgb(206,206,206);
+	border-right: 8px solid rgb(206,206,206);
+	margin-top: 1px;
+	font-style:italic;
+}
+header
+{
+	background-color: blue;
+	height: 70px;
+	margin-top: 1%;
+	border-top: 8px solid rgb(206,206,206);
+	margin-top: -20px;
+}	
+section
+{
+	background-color: rgb(255,136,255);
+}
+#mypage-content-wrapper
+{
+	border-top: 8px solid yellow;
+}
+aside
+{
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgb(238,38,213);
+	height: 200px;
+}
+#mypage-left-in-column-content
+{
+	margin-top: 1%;
+	width: 20%;
+}
+#mypage-right-in-column-content
+{
+	margin-left: 78%;
+	margin-top: -290px;
+	width: 22%;
+}
+.mypage-large-content 
+{
+	background-color: red;
+	height: 75px;
+	margin-top: -20px;
+}
+#mypage-central-in-column-content
+{
+	background-color: green;
+	display: inline-block;
+	vertical-align: top;
+	height: 290px;
+	width: 58%;
+	margin-top: 1%;
+	margin-left: -3.5px;
+}
+#mypage-bottom-large-content
+{
+	margin-top: -30px;
+}
+footer
+{
+	background-color: blue;
+	border-top: 8px solid yellow;
+	border-bottom: 8px solid rgb(206,206,206);
+	height: 70px;
+	margin-top: -20px;
+}

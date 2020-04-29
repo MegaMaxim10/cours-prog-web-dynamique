@@ -1,0 +1,97 @@
+#mypage-container{
+background-color: yellow;
+ width:100%;
+    height: 100%;
+}
+header.mypage-full-width h2 {
+padding-top: -23px;
+    	font-family: 'Ruthie', italic;
+}
+
+header.mypage-full-width  {
+
+clear: ;
+margin-top:%;
+padding: 5px;
+background-color: blue;
+border: 2px;
+width:99%;
+height: 22%:
+   
+
+} 
+footer.mypage-full-width{
+
+clear: left;
+margin-top:;
+padding: 5px;
+background-color: blue;
+
+border: 2px;
+width:99%;
+
+    margin-top:1%;
+
+}
+#mypage-top-large-content{
+
+clear: left;
+margin-top:;
+padding: 20px;
+background-color: red;
+
+border: 2px;
+
+}
+.mypage-full-width{
+ margin-top: %;
+
+}
+section.mypage-large-content  h2 {
+
+
+
+}
+
+
+#mypage-bottom-large-content{
+
+clear: left;
+margin-top:;
+padding: 20px;
+background-color: red;
+
+border: 2px;
+}
+#mypage-in-column-content-wrapper{
+ height: 40%;
+background-color: pink;
+    margin-top: %;
+}
+
+aside.mypage-column-content-aside{
+
+ background-color: teal;
+    height: 60%;
+    width: 30%;
+}
+#mypage-right-in-column-content {
+
+
+    float:right;
+    margin-top:;
+        margin-top: -17.2%;
+
+    
+}
+#mypage-central-in-column-content{
+background-color: green;
+  width: 40%;
+    margin-left: 30%;
+    height: 85%;
+    margin-top: -13.7%;
+
+}
+.mypage-float-right{
+  float: top;
+}

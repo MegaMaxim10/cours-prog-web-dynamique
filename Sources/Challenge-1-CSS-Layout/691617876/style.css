@@ -1,0 +1,50 @@
+#mypage-container
+{
+    margin : auto;
+    width : 65%;
+    height : 1000px;
+    background-color : #ccc;
+    font-style: italic;
+    font-family: Time-new-roman;
+    font-size-adjust: +0.55;
+    padding: 2%
+}
+.mypage-full-width
+{
+    background-color : #00c;
+    height : 12%;
+}
+#mypage-content-wrapper
+{
+    background-color: yellow;
+    height : 71%;
+    padding-top:2% ;
+}
+.mypage-large-content
+{
+    background-color: red;
+    height: 18%;
+    padding: 0.6%;
+}
+#mypage-in-column-content-wrapper
+{
+    background-color: #faf;
+    height: 59%;
+}
+.mypage-column-content-aside
+{
+    background-color: #f4d;
+    width: 26%;
+    height: 65%;
+}
+#mypage-central-in-column-content
+{
+    background-color: green;
+    width: 48%;
+    height: 93%;
+}
+.mypage-float-left
+{
+    float: left;
+    margin-top: 2%
+}

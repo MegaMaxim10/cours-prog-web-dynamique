@@ -1,0 +1,46 @@
+#mypage-container{
+    border: 10px solid rgb(129, 128, 128);
+    font-size: 14px;
+    text-align: left;
+    width: 1000px;
+    margin: auto;
+    font-family:Times, serif;
+    border-top: 1px solid rgb(129, 128, 128);
+    font-style: italic;
+}
+header{
+    border-top: 12px solid rgb(129, 128, 128); 
+    height: 150px;
+    background-color: blue;
+}
+#mypage-top-large-content{
+    background-color: red;
+    height: 150px;
+    border-top: 12px solid yellow; 
+}
+#mypage-in-column-content-wrapper{
+    background-color: rgb(235, 127, 220);
+    height: 300px;
+    display: inline-flex;
+}
+aside{
+    background-color: hsla(308, 98%, 51%, 0.89);
+    height: 190px;
+    margin-top: 10px;
+}
+#mypage-central-in-column-content{
+    background-color: green;
+    width: 529px;
+    height: 280px;
+    margin-top: 12px;
+}
+#mypage-bottom-large-content{
+    background-color: red;
+    height: 150px;
+    border-top: 12px solid rgb(235, 127, 220);
+}
+footer{
+    background-color: blue;
+    border-top: 12px solid yellow;
+    height: 150px;
+}

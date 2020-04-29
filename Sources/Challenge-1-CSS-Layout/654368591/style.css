@@ -1,0 +1,82 @@
+#mypage-container{
+	;
+}
+
+body{
+	width: 72%;
+	height: 100%;
+	border-color: #C5C5C5;
+	border: solid;
+	border-width: 10px;
+	border-color: #C5C5C5;
+	margin: auto;
+}
+
+header, footer{
+	background-color: blue;
+}
+
+.mypage-full-width{
+	height: 100%;
+	width: 100%;
+	border: groove;
+	border-left: 0px;
+	border-right: 0px
+}
+
+#mypage-content-wrapper{
+	border: solid;
+	border-width: 10px;
+	border-left: 0px;
+	border-right: 0px;
+	border-color: yellow;
+}
+#mypage-in-column-content-wrapper{
+	height: 400px;
+	max-width: 99.3%;
+	background-color: #ffa0ff;
+	border :solid;
+	border-color: #ffa0ff;
+}
+
+.mypage-large-content{
+	background-color: red;
+}
+
+#mypage-central-in-column-content{
+		height: 390px;
+		align-content: center;
+		background-color: green;
+		width-left:200px;
+		width-right: 200px; 
+		width: 50%;
+		float: left;
+		overflow: hidden;
+		white-space: normal;
+
+
+}
+.mypage-float-left{
+
+}
+
+.mypage-column-content-aside{
+	background-color: #ff70ff;
+
+}
+
+#mypage-right-in-column-content{
+	text-align: left;
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+
+#mypage-left-in-column-content{
+	text-align: left;
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+
+
