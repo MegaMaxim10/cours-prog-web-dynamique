@@ -3,6 +3,9 @@ html {
 }
 #_1_container {
 	background-color: black;
+	width: 75%;
+	margin: auto;
+	padding: 5px 15px 5px 15px;
 }
 ._1_col_1{
 	background-color: green;
